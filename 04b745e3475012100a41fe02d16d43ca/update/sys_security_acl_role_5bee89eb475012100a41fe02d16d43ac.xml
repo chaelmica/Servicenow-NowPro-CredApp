@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 13:38:06</sys_created_on>
+        <sys_id>5bee89eb475012100a41fe02d16d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_295853_credit_0_credit.x_295853_credit_0.admin</sys_name>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_security_acl display_value="x_295853_credit_0_credit">53ee89eb475012100a41fe02d16d43aa</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5bee89eb475012100a41fe02d16d43ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 13:38:06</sys_updated_on>
+        <sys_user_role display_value="x_295853_credit_0.admin" name="x_295853_credit_0.admin">44b745e3475012100a41fe02d16d43f7</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">5a81893b8d020210d0ad51af41866359</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 13:38:01</sys_created_on>
+        <sys_id>deee49eb475012100a41fe02d16d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 13:38:01</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
