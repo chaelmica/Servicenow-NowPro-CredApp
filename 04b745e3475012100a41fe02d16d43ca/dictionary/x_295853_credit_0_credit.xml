@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3b6be89347d012100a41fe02d16d437d" extends="task" label="Credit" max_length="40" name="x_295853_credit_0_credit" type="collection"/>
+    <element db_object_id="3b6be89347d012100a41fe02d16d437d" extends="task" label="Credit" max_length="40" name="x_295853_credit_0_credit" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Address Number" max_length="40" name="address_number" type="string"/>
+        <element label="Bank Account" max_length="40" name="bank_account" type="string"/>
+        <element label="Bank Branch" max_length="40" name="bank_branch" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="CPF" max_length="40" name="cpf" type="string"/>
+        <element label="Credit Amount" max_length="40" name="credit_amount" type="string"/>
+        <element label="E-mail" max_length="40" name="e_mail" type="string"/>
+        <element label="Gender" max_length="40" name="gender" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Neighborhood" max_length="40" name="neighborhood" type="string"/>
+        <element label="Payments" max_length="40" name="payments" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element label="State of" max_length="40" name="state_of" type="string"/>
+    </element>
 </database>
