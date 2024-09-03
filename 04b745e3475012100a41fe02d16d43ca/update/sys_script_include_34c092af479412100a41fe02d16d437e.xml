@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_295853_credit_0.Script_Include_Aula06</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Script_Include_Aula06</name>
+        <script><![CDATA[var Script_Include_Aula06 = Class.create();
+Script_Include_Aula06.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getUserCPFDetails: function(){
+		var cpfUser = this.getParameter('sysparm_cpf');
+		gs.info('User CPF: ' + cpfUser); //test
+
+
+	},
+
+    type: 'Script_Include_Aula06'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 18:26:04</sys_created_on>
+        <sys_id>34c092af479412100a41fe02d16d437e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Script_Include_Aula06</sys_name>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name>sys_script_include_34c092af479412100a41fe02d16d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 18:29:36</sys_updated_on>
+    </sys_script_include>
+</record_update>
