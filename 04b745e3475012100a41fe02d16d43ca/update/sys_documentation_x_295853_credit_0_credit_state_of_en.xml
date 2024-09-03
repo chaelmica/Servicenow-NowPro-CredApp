@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state_of" label="State of" language="en" table="x_295853_credit_0_credit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state_of</element>
+            <help/>
+            <hint/>
+            <label>State of</label>
+            <language>en</language>
+            <name>x_295853_credit_0_credit</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-03 16:56:35</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>State of</sys_name>
+            <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+            <sys_update_name>sys_documentation_x_295853_credit_0_credit_state_of_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-03 16:56:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
