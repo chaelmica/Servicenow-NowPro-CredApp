@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3b6be89347d012100a41fe02d16d437d" extends="task" label="Credit" max_length="40" name="x_295853_credit_0_credit" type="collection"/>
+</database>

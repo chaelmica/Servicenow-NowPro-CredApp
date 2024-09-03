@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Credit</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Credit</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">da81893b8d020210d0ad51af4186635c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 13:38:01</sys_created_on>
+        <sys_id>1aee49eb475012100a41fe02d16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credit</sys_name>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name>sys_wizard_answer_1aee49eb475012100a41fe02d16d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 13:38:01</sys_updated_on>
+        <table/>
+        <target_url>x_295853_credit_0_credit.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
