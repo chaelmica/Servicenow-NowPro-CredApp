@@ -8,28 +8,26 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from>2a0492ef479412100a41fe02d16d438c</copied_from>
         <copied_from_name>Credit User</copied_from_name>
         <description/>
         <ih_action>false</ih_action>
         <internal_name>credit_audit</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9eb9cab9-ba5c-480e-9817-c2fc6171c4f8"}},{"name":"{{action.e_mail}}","label":"action➛E-mail","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.phone_number}}","label":"action➛Phone_number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.gender}}","label":"action➛Gender","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cpf}}","label":"action➛CPF","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.request_number}}","label":"action➛Request Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.credit_amount}}","label":"action➛Credit Amount","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.payments}}","label":"action➛Payments","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[25479c0e-0b34-4c04-be9c-165563e7ebc8].record}}","label":"step➛Create User Record➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <master_snapshot>e24772ff479852100a41fe02d16d4328</master_snapshot>
         <name>Credit Audit</name>
         <natlang/>
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac7c12eb47d412100a41fe02d16d4344</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Credit Audit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
@@ -37,7 +35,7 @@
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ac7c12eb47d412100a41fe02d16d4344</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -78,9 +76,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:48</sys_created_on>
         <sys_id>347c1eeb47d412100a41fe02d16d43ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:16:48</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:55:51</sys_updated_on>
         <table>var__m_sys_hub_action_output_ac7c12eb47d412100a41fe02d16d4344</table>
         <value>{{step[25479c0e-0b34-4c04-be9c-165563e7ebc8].record}}</value>
     </sys_element_mapping>
@@ -117,6 +115,7 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
+        <inputs/>
         <label>Create User Record</label>
         <order>1</order>
         <outputs/>
@@ -125,10 +124,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:48</sys_created_on>
         <sys_id>bc7c1eeb47d412100a41fe02d16d43d9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:57:58</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc7c1eeb47d412100a41fe02d16d43d9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -139,10 +138,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:18:45</sys_created_on>
         <sys_id>19ec562f47d412100a41fe02d16d436d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
-        <value>=</value>
+        <sys_updated_on>2024-09-04 15:57:58</sys_updated_on>
+        <value/>
         <variable display_value="Field Values">e78d203667003200553fafb49585ef63</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -153,13 +152,37 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:48</sys_created_on>
         <sys_id>307c1eeb47d412100a41fe02d16d43df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
-        <value>cert_audit</value>
+        <sys_updated_on>2024-09-04 15:57:58</sys_updated_on>
+        <value>x_295853_credit_0_audit</value>
         <variable display_value="Table">f0fb68f267003200553fafb49585efa0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69^id=bc7c1eeb47d412100a41fe02d16d43d9"/>
+    <sys_element_mapping action="delete_multiple" query="id=bc7c1eeb47d412100a41fe02d16d43d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>bc7c1eeb47d412100a41fe02d16d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 19:16:48</sys_created_on>
+        <sys_id>f47c1eeb47d412100a41fe02d16d43de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:57:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>request_number={{action.request_number}}^credit_amount={{action.credit_amount}}^payments={{action.payments}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>bc7c1eeb47d412100a41fe02d16d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-03 19:16:48</sys_created_on>
+        <sys_id>bc7c1eeb47d412100a41fe02d16d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-03 19:16:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=bc7c1eeb47d412100a41fe02d16d43d9"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=bc7c1eeb47d412100a41fe02d16d43d9"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=bc7c1eeb47d412100a41fe02d16d43d9"/>
@@ -444,7 +467,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>787c1eeb47d412100a41fe02d16d43e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -452,7 +475,7 @@
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:58:05</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -607,14 +630,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:48</sys_created_on>
         <sys_id>bc7c1eeb47d412100a41fe02d16d43e1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:58:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -707,14 +730,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 19:16:48</sys_created_on>
         <sys_id>f47c1eeb47d412100a41fe02d16d43e9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-03 19:21:04</sys_updated_on>
+        <sys_updated_on>2024-09-04 15:58:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -883,5 +906,906 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ac7c12eb47d412100a41fe02d16d4344"/>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=ac7c12eb47d412100a41fe02d16d4344"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ac7c12eb47d412100a41fe02d16d4344^sys_idNOT IN8b4772ff479852100a41fe02d16d4398"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Credit Audit">ac7c12eb47d412100a41fe02d16d4344</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8b4772ff479852100a41fe02d16d4398","name":"plan","plan_signature":null}}</plan>
+        <snapshot>c498327347d852100a41fe02d16d4333</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b4772ff479852100a41fe02d16d4398</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:08</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>2a0492ef479412100a41fe02d16d438c</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>credit_audit</internal_name>
+        <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"9eb9cab9-ba5c-480e-9817-c2fc6171c4f8"}},{"name":"{{action.e_mail}}","label":"action➛E-mail","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.phone_number}}","label":"action➛Phone_number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.gender}}","label":"action➛Gender","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.cpf}}","label":"action➛CPF","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.request_number}}","label":"action➛Request Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.credit_amount}}","label":"action➛Credit Amount","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.payments}}","label":"action➛Payments","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[25479c0e-0b34-4c04-be9c-165563e7ebc8].record}}","label":"step➛Create User Record➛Record","type":"step","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Credit Audit</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Credit Audit">ac7c12eb47d412100a41fe02d16d4344</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e24772ff479852100a41fe02d16d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e24772ff479852100a41fe02d16d4328"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e24772ff479852100a41fe02d16d4328"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e24772ff479852100a41fe02d16d4328</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>664772ff479852100a41fe02d16d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">ea4772ff479852100a41fe02d16d4351</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e24772ff479852100a41fe02d16d4328</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a24772ff479852100a41fe02d16d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">624772ff479852100a41fe02d16d4355</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e24772ff479852100a41fe02d16d4328"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>e24772ff479852100a41fe02d16d4328</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>aa4772ff479852100a41fe02d16d435b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:55:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</table>
+        <value>{{step[25479c0e-0b34-4c04-be9c-165563e7ebc8].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>e24772ff479852100a41fe02d16d4328</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>224772ff479852100a41fe02d16d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>e24772ff479852100a41fe02d16d4328</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>6e4772ff479852100a41fe02d16d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=e24772ff479852100a41fe02d16d4328^sys_idNOT IN6a4772ff479852100a41fe02d16d4345"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</action>
+        <cid>25479c0e-0b34-4c04-be9c-165563e7ebc8</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Create User Record</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create Record">9cbaa0f267003200553fafb49585ef69</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>6a4772ff479852100a41fe02d16d4345</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a4772ff479852100a41fe02d16d4345"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a4772ff479852100a41fe02d16d4345</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>224772ff479852100a41fe02d16d434c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+        <value>x_295853_credit_0_audit</value>
+        <variable display_value="Table">f0fb68f267003200553fafb49585efa0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6a4772ff479852100a41fe02d16d4345</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>2a4772ff479852100a41fe02d16d434b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">e78d203667003200553fafb49585ef63</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6a4772ff479852100a41fe02d16d4345"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_field_values</field>
+        <id>6a4772ff479852100a41fe02d16d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>ee4772ff479852100a41fe02d16d434a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value>request_number={{action.request_number}}^credit_amount={{action.credit_amount}}^payments={{action.payments}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>create_record_table_name</field>
+        <id>6a4772ff479852100a41fe02d16d4345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a64772ff479852100a41fe02d16d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_9cbaa0f267003200553fafb49585ef69</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a4772ff479852100a41fe02d16d4345"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6a4772ff479852100a41fe02d16d4345"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6a4772ff479852100a41fe02d16d4345"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a4772ff479852100a41fe02d16d4345^sys_idNOT INe64772ff479852100a41fe02d16d4349"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>create_record_field_values</input_name>
+        <instance>6a4772ff479852100a41fe02d16d4345</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"user_name":{"scriptActive":false,"savedValue":"{{action.e_mail}}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>e64772ff479852100a41fe02d16d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_6a4772ff479852100a41fe02d16d4345"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e24772ff479852100a41fe02d16d4328^sys_idNOT IN6a4772ff479852100a41fe02d16d433d,6e4772ff479852100a41fe02d16d4340,ee4772ff479852100a41fe02d16d432b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9b7f6e0f-4b89-4fbd-8875-8550b7ca44af</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payments</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payments</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>6a4772ff479852100a41fe02d16d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6a4772ff479852100a41fe02d16d433d"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2aece958-03e6-45e5-89e4-3120dabe9b6f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Request Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>6e4772ff479852100a41fe02d16d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6e4772ff479852100a41fe02d16d4340"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3415356e-5540-4e68-bec5-6abca1ecdc18</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>credit_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Credit Amount</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>ee4772ff479852100a41fe02d16d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ee4772ff479852100a41fe02d16d432b"/>
+    <sys_hub_action_output action="delete_multiple" query="model=e24772ff479852100a41fe02d16d4328^sys_idNOT IN624772ff479852100a41fe02d16d4355,aa4772ff479852100a41fe02d16d434d,ea4772ff479852100a41fe02d16d4351"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=26b15167-5722-47f2-9b6e-1b3ca7ca1ad2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>624772ff479852100a41fe02d16d4355</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=624772ff479852100a41fe02d16d4355"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=624772ff479852100a41fe02d16d4355"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b0721ace-8c71-4783-93ff-7eeba0ea4cec</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_9cbaa0f267003200553fafb49585ef69">966cd57267003200553fafb49585efa0</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>aa4772ff479852100a41fe02d16d434d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:58:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aa4772ff479852100a41fe02d16d434d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa4772ff479852100a41fe02d16d434d^sys_idNOT IN224772ff479852100a41fe02d16d435b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>variable</input_name>
+        <instance>aa4772ff479852100a41fe02d16d434d</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>224772ff479852100a41fe02d16d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=6550ea71-fffc-4560-9c2f-a62587f4b890</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</model>
+        <model_id>e24772ff479852100a41fe02d16d4328</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>ea4772ff479852100a41fe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea4772ff479852100a41fe02d16d4351"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea4772ff479852100a41fe02d16d4351"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e24772ff479852100a41fe02d16d4328"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e24772ff479852100a41fe02d16d4328^sys_idNOT IN2a4772ff479852100a41fe02d16d435e"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Credit Audit">e24772ff479852100a41fe02d16d4328</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>2a4772ff479852100a41fe02d16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=2a4772ff479852100a41fe02d16d435e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328^sys_idNOT IN2a4772ff479852100a41fe02d16d433c,a24772ff479852100a41fe02d16d4340,a64772ff479852100a41fe02d16d4343"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>credit_amount</element>
+        <help/>
+        <hint/>
+        <label>Credit Amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>2a4772ff479852100a41fe02d16d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>payments</element>
+        <help/>
+        <hint/>
+        <label>Payments</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a24772ff479852100a41fe02d16d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_number</element>
+        <help/>
+        <hint/>
+        <label>Request Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a64772ff479852100a41fe02d16d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e24772ff479852100a41fe02d16d4328"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328^sys_idNOT IN224772ff479852100a41fe02d16d4351,a24772ff479852100a41fe02d16d4359,a64772ff479852100a41fe02d16d4354"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>224772ff479852100a41fe02d16d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a24772ff479852100a41fe02d16d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 15:52:33</sys_created_on>
+        <sys_id>a64772ff479852100a41fe02d16d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:52:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e24772ff479852100a41fe02d16d4328"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>ac7c12eb47d412100a41fe02d16d4344</sys_id>
+        <latest_snapshot>e24772ff479852100a41fe02d16d4328</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-05-02-2024_05-14-2024_2249.zip</compiler_build>
+    </sys_hub_action_type_definition>
 </record_update>
