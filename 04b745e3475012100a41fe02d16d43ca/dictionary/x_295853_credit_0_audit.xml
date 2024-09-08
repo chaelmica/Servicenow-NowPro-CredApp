@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="232bb017471412100a41fe02d16d43ab" label="Audit" max_length="40" name="x_295853_credit_0_audit" type="collection">
+        <element label="Credit Amount" max_length="40" name="credit_amount" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Payments" max_length="40" name="payments" type="string"/>
+        <element label="Request Number" max_length="40" name="request_number" type="string"/>
     </element>
 </database>

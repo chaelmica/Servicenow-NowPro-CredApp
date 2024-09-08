@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="39ebc0d1476012100a41fe02d16d4321" sys_domain="global" table="x_295853_credit_0_credit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-08 19:14:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9ebc0d1476012100a41fe02d16d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295853_credit_0_credit" name="x_295853_credit_0_credit" sys_domain="global" view="Default view">39ebc0d1476012100a41fe02d16d4321</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_295853_credit_0_credit" sys_domain="global" view="Default view">37c9fd63475412100a41fe02d16d4302</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-08 19:14:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-08 19:14:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3debc0d1476012100a41fe02d16d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_295853_credit_0_credit" name="x_295853_credit_0_credit" sys_domain="global" view="Default view">39ebc0d1476012100a41fe02d16d4321</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_295853_credit_0_credit" sys_domain="global" view="Default view">f9ebc0d1476012100a41fe02d16d431f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-08 19:14:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_295853_credit_0_credit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-08 19:14:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39ebc0d1476012100a41fe02d16d4321</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_295853_credit_0_credit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
+            <sys_update_name>sys_ui_form_sections_39ebc0d1476012100a41fe02d16d4321</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-08 19:14:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
