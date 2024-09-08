@@ -10,23 +10,34 @@
         <script><![CDATA[var Script_Include_Aula06 = Class.create();
 Script_Include_Aula06.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
-	getUserByCPF: function(){
-		var userCPF = this.getParameter('sysparm_cpf');
-		//gs.info('User CPF: ' + userCPF); //test
+    setAuditRecord: function(Amount, Payments, Request) {
+        var setRecord = new GlideRecord("x_295853_credit_0_audit");
+        setRecord.initialize();
+        setRecord.request_number = Request;
+        setRecord.credit_amount = Amount;
+        setRecord.payments = Payments;
 
-		var detailsCPF = new GlideRecord('sys_user');
-		detailsCPF.addQuery('user_name', userCPF);
-		detailsCPF.query();
+        setRecord.insert();
+        return true;
+    },
 
-		if(detailsCPF.next()){
-			var objCPF = '{"cpf":"' + detailsCPF.getValue('user_name') + '", "name": "' + detailsCPF.getValue('name') +'", "email":"' + detailsCPF.getValue('email')+'", "phone_number":"' + detailsCPF.getValue('phone')+ '", "gender":"' + detailsCPF.getDisplayValue('gender')+'"}';
+    getUserByCPF: function() {
+        var userCPF = this.getParameter('sysparm_cpf');
+        //gs.info('User CPF: ' + userCPF); //test
 
-			gs.info('JSON result>: ' + objCPF);
-			return objCPF;
-		}
+        var detailsCPF = new GlideRecord('sys_user');
+        detailsCPF.addQuery('user_name', userCPF);
+        detailsCPF.query();
+
+        if (detailsCPF.next()) {
+            var objCPF = '{"cpf":"' + detailsCPF.getValue('user_name') + '", "name": "' + detailsCPF.getValue('name') + '", "email":"' + detailsCPF.getValue('email') + '", "phone_number":"' + detailsCPF.getValue('phone') + '", "gender":"' + detailsCPF.getDisplayValue('gender') + '"}';
+
+            gs.info('JSON result>: ' + objCPF);
+            return objCPF;
+        }
 
 
-	},
+    },
 
     type: 'Script_Include_Aula06'
 });]]></script>
@@ -34,13 +45,13 @@ Script_Include_Aula06.prototype = Object.extendsObject(global.AbstractAjaxProces
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-03 18:26:04</sys_created_on>
         <sys_id>34c092af479412100a41fe02d16d437e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Script_Include_Aula06</sys_name>
         <sys_package display_value="Credit App" source="x_295853_credit_0">04b745e3475012100a41fe02d16d43ca</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Credit App">04b745e3475012100a41fe02d16d43ca</sys_scope>
         <sys_update_name>sys_script_include_34c092af479412100a41fe02d16d437e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-04 18:01:07</sys_updated_on>
+        <sys_updated_on>2024-09-08 20:32:21</sys_updated_on>
     </sys_script_include>
 </record_update>
